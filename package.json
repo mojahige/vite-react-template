@@ -1,4 +1,6 @@
 {
+  "private": true,
+  "license": "UNLICENSED",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
