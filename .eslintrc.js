@@ -3,8 +3,9 @@ module.exports = {
     node: true,
     browser: true,
     es2021: true,
+    'jest/globals': true,
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'jest'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
