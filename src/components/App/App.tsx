@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function App(): JSX.Element {
+export function App(): JSX.Element {
   return (
     <main>
       <h1
@@ -16,5 +16,3 @@ function App(): JSX.Element {
     </main>
   );
 }
-
-export default App;
